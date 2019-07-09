@@ -37,3 +37,18 @@
   {% endfor %}
   </ul>
 {% endfor %}
+
+<h3>タグ</h3>
+
+{% for tag in site.tags %}
+  {% capture name %}{{ tag[0] }}{% endcapture %}
+  <h4>{{ name }} ({{ site.tags[name] | size }})</h4>
+  <ul class="posts">
+  {% for post in site.tags[name] %}
+    <li>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <span class="post-date">{{ post.date | date_to_string }}</span>
+    </li>
+  {% endfor %}
+  </ul>
+{% endfor %}
