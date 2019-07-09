@@ -2,7 +2,7 @@
 title:      "車椅子向けバックモニターの製作"
 date:       2019-04-15 12:00:00 +0900
 categories: Make
-tags:       DIY,RPi,バックモニター,3Dプリンター
+tags:       DIY RPi バックモニター 3Dプリンター
 ---
 
 <a href="https://0x0026.info/">Home</a>
