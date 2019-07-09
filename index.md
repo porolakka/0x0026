@@ -1,12 +1,16 @@
-## Welcome to GitHub Pages
+## 概要
 
-You can use the [editor on GitHub](https://github.com/porolakka/0x0026/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+0x0026 = & 
 
+世の中に溢れている可能性のひとつひとつ
 
+やってみた、つくってみた、つかってみた
+
+ちょっとずつ記録する場所
 
 ---
 
-<h2>最新記事</h2>
+<h2>新着記事</h2>
 
 <ul>
   {% for post in site.posts limit 5 %}
