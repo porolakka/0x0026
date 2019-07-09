@@ -10,7 +10,9 @@
 
 ---
 
-<h2>新着記事</h2>
+<h2>記事</h2>
+
+<h3>新着記事</h3>
 
 <ul>
   {% for post in site.posts limit 5 %}
@@ -21,11 +23,11 @@
 </ul>
 
 
-<h2>カテゴリー</h2>
+<h3>カテゴリー</h3>
   
 {% for category in site.categories %}
   {% capture name %}{{ category[0] }}{% endcapture %}
-  <h3>{{ name }} ({{ site.categories[name] | size }})</h3>
+  <h4>{{ name }} ({{ site.categories[name] | size }})</h4>
   <ul class="posts">
   {% for post in site.categories[name] %}
     <li>
