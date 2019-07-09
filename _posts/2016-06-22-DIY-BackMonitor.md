@@ -7,7 +7,7 @@ tags:       DIY RaspberryPi 3D-Printing
 
 <a href="https://0x0026.info/">Home</a>
 
-## 車椅子向けバックモニターの製作と実証
+## 車椅子向けバックモニターの製作
 
 ### 概要
 
