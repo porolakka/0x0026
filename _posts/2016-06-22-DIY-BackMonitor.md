@@ -101,7 +101,7 @@ tags:       DIY,RPi,バックモニター,3Dプリンター
 
 {% for tag in site.tags %}
   {% capture name %}{{ tag[0] }}{% endcapture %}
-  <h2>{{ name }} ({{ site.tags[name] | size }})</h2>
+  <h5>{{ name }} ({{ site.tags[name] | size }})</h5>
   <ul class="posts">
   {% for post in site.tags[name] %}
     <li>
