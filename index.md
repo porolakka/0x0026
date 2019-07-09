@@ -12,7 +12,7 @@
 
 <h2>記事</h2>
 
-<h3>新着記事</h3>
+<h3>新着</h3>
 
 <ul>
   {% for post in site.posts limit 5 %}
