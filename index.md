@@ -6,7 +6,7 @@ You can use the [editor on GitHub](https://github.com/porolakka/0x0026/edit/mast
 
 ---
 
-<h3>最新記事</h3>
+<h2>最新記事</h2>
 
 <ul>
   {% for post in site.posts limit 5 %}
@@ -17,11 +17,11 @@ You can use the [editor on GitHub](https://github.com/porolakka/0x0026/edit/mast
 </ul>
 
 
-<h3>カテゴリー</h3>
+<h2>カテゴリー</h2>
   
 {% for category in site.categories %}
   {% capture name %}{{ category[0] }}{% endcapture %}
-  <h2>{{ name }} ({{ site.categories[name] | size }})</h2>
+  <h3>{{ name }} ({{ site.categories[name] | size }})</h3>
   <ul class="posts">
   {% for post in site.categories[name] %}
     <li>
