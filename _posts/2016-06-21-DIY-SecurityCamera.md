@@ -28,7 +28,7 @@ tags:       DIY RaspberryPi
   * Wi-Fiを搭載したRaspberry Pi 3 Model B や 小型の Raspberry Pi Zero W でも可
 
 * 監視用ソフトウェア
-  * ![motionEye](https://github.com/ccrisan/motioneye) または ![motionEyeOS](https://github.com/ccrisan/motioneyeos)
+  * [motionEye](https://github.com/ccrisan/motioneye) または [motionEyeOS](https://github.com/ccrisan/motioneyeos)
   * カメラモジュール、WebカメラやIPカメラを接続することができる
   * 動体検知エリアの設定、メールの通知先、画像の保存容量などをWebUIから設定できる
  
