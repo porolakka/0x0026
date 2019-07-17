@@ -1,6 +1,6 @@
 ---
-title:      "車椅子向けバックモニターの製作"
-date:       2019-04-15 12:00:00 +0900
+title:      "車椅子向けバックモニターを作る"
+date:       2016-06-22 12:00:00 +0900
 categories: Make
 tags:       DIY RaspberryPi 3D-Printing
 ---
