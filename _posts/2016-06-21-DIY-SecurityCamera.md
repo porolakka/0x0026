@@ -3,6 +3,7 @@ title:      "ウェブインターフェースを備えた見守りカメラを�
 date:       2016-06-21 09:00:00 +0900
 categories: Make
 tags:       DIY RaspberryPi
+comments: true
 ---
 
 ### 概要
