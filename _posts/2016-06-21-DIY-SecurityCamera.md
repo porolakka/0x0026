@@ -5,10 +5,6 @@ categories: Make
 tags:       DIY RaspberryPi
 ---
 
-<a href="https://0x0026.info/">Home</a>
-
-## ウェブインターフェースを備えた見守りカメラの制作
-
 ### 概要
 
 #### ニーズ
@@ -54,47 +50,3 @@ tags:       DIY RaspberryPi
 * IoT向けの通信回線を用いることで、固定回線のない家庭にも低コストで導入できる
 * 撮影した画像をメール通知またはクラウドから閲覧できる
 * 既製品のWebカメラやIPカメラを柔軟に組み合わせることができる
-
----
-
-<h4>記事一覧</h4>
-
-<h4>新着</h4>
-
-<ul>
-    {% for post in site.posts limit:3 %}
-        <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-    {% endfor %}
-</ul>
-
-<h4>カテゴリー</h4>
-
-{% for category in site.categories %}
-  {% capture name %}{{ category[0] }}{% endcapture %}
-  <h5>{{ name }} ({{ site.categories[name] | size }})</h5>
-  <ul class="posts">
-  {% for post in site.categories[name] limit:3 %}
-    <li>
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      <span class="post-date">{{ post.date | date_to_string }}</span>
-    </li>
-  {% endfor %}
-  </ul>
-{% endfor %}
-
-<h4>タグ</h4>
-
-{% for tag in site.tags %}
-  {% capture name %}{{ tag[0] }}{% endcapture %}
-  <h5>{{ name }} ({{ site.tags[name] | size }})</h5>
-  <ul class="posts">
-  {% for post in site.tags[name] %}
-    <li>
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      <span class="post-date">{{ post.date | date_to_string }}</span>
-    </li>
-  {% endfor %}
-  </ul>
-{% endfor %}
