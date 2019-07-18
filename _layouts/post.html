@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-<header>
+<div>
   <a href="https://0x0026.info/">Home</a>
   <div>{{ page.date | date_to_string }}</div>
   <h2>{{ page.title }}</h2>
-</header>
+</div>
 
 <div class='main'>
   {{ content }}
@@ -31,12 +31,10 @@ layout: default
 
 <hr>
 
-<footer>
-  
+<div>
     <h4>記事一覧</h4>
 
     <h4>新着</h4>
-
     <ul>
         {% for post in site.posts limit:3 %}
             <li>
@@ -46,7 +44,6 @@ layout: default
     </ul>
 
     <h4>カテゴリー</h4>
-
     {% for category in site.categories %}
     {% capture name %}{{ category[0] }}{% endcapture %}
     <h5>{{ name }} ({{ site.categories[name] | size }})</h5>
@@ -61,7 +58,6 @@ layout: default
     {% endfor %}
 
     <h4>タグ</h4>
-
     {% for tag in site.tags %}
     {% capture name %}{{ tag[0] }}{% endcapture %}
     <h5>{{ name }} ({{ site.tags[name] | size }})</h5>
@@ -74,5 +70,4 @@ layout: default
     {% endfor %}
     </ul>
     {% endfor %}
-
-</footer>
+</div>
