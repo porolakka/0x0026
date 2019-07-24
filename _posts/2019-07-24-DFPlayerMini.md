@@ -1,8 +1,8 @@
 ---
 title:      "MP3ファイルを手軽に再生する"
 date:       2019-07-24 20:50:00 +0900
-categories: Make
-tags:       DIY Arduino Links
+categories: Make Links
+tags:       DIY Arduino Audio
 comments: true
 ---
 
