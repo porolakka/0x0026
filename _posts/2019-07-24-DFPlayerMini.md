@@ -1,5 +1,5 @@
 ---
-title:      "MP3ファイルを手軽に再生する"
+title:      "MP3ファイルを手軽に再生する機材について"
 date:       2019-07-24 20:50:00 +0900
 categories: Make Links
 tags:       DIY Arduino Audio
@@ -7,7 +7,7 @@ comments: true
 ---
 
 ## 概要
-MP3プレーヤーを簡単な仕組みで作る。  
+PC等不要のMP3プレーヤーをできるだけ簡単な構成で作る。  
 記事にするほどではないが、最近よく使うので、参照するリンクをメモとして残しておく。
 
 ![](/assets/2019-07-24/DFPlayerMini.jpg)
